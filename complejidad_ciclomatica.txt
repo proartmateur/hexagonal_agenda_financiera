@@ -1,0 +1,83 @@
+# Reporte sobre la complejidad ciclomática del sistema
+
+A un lado de cada archivo se mostrará una letra:
+
+    1 - 5	A (low risk - simple block)
+    6 - 10	B (low risk - well structured and stable block)
+    11 - 20	C (moderate risk - slightly complex block)
+    21 - 30	D (more than moderate risk - more complex block)
+    31 - 40	E (high risk - complex block, alarming)
+    41+	F (very high risk - error-prone, unstable block)
+
+    https://radon.readthedocs.io/en/latest/api.html#module-radon.complexity
+
+shared/persistence/json_repository.py
+    M 32:4 JsonRepository.find - A
+    C 10:0 JsonRepository - A
+    M 12:4 JsonRepository.__init__ - A
+    M 19:4 JsonRepository.__write_file - A
+    M 24:4 JsonRepository.save - A
+    M 39:4 JsonRepository.list - A
+shared/domain/value_objects/int_value_object.py
+    C 1:0 IntValueObject - A
+    M 2:4 IntValueObject.__init__ - A
+    M 9:4 IntValueObject.value - A
+shared/domain/value_objects/string_value_object.py
+    C 1:0 StringValueObject - A
+    M 2:4 StringValueObject.__init__ - A
+    M 9:4 StringValueObject.value - A
+modules/user/persistence/json_user_repository.py
+    C 11:0 JsonUserRepository - A
+    M 28:4 JsonUserRepository.list - A
+    M 12:4 JsonUserRepository.__init__ - A
+    M 15:4 JsonUserRepository.save - A
+    M 19:4 JsonUserRepository.find - A
+modules/user/persistence/test_json_user_repository.py
+    C 12:0 TestUser - A
+    M 13:4 TestUser.test_if_persist_user - A
+modules/user/application/create_user.py
+    C 18:0 CreateUser - A
+    M 19:4 CreateUser.__init__ - A
+    M 24:4 CreateUser.__call__ - A
+modules/user/domain/user.py
+    M 49:4 User.__update_credits - A
+    C 21:0 User - A
+    M 100:4 User.charge - A
+    M 23:4 User.__init__ - A
+    M 35:4 User.__str__ - A
+    M 38:4 User.__repr__ - A
+    M 41:4 User.to_dict - A
+    M 68:4 User.active - A
+    M 72:4 User.credits - A
+    M 76:4 User.uid - A
+    M 80:4 User.name - A
+    M 84:4 User.password - A
+    M 88:4 User.is_vip - A
+    M 95:4 User.deposit - A
+modules/user/domain/test_user.py
+    C 9:0 TestUser - A
+    M 10:4 TestUser.test_create_new_user - A
+    M 14:4 TestUser.test_load_existent_user - A
+    M 29:4 TestUser.test_deposit - A
+    M 37:4 TestUser.test_charge - A
+    M 45:4 TestUser.test_sould_be_dead - A
+    M 55:4 TestUser.test_sould_be_vip - A
+modules/user/domain/user_repository.py
+    C 7:0 UserRepository - A
+    M 9:4 UserRepository.save - A
+    M 13:4 UserRepository.find - A
+    M 17:4 UserRepository.list - A
+modules/user/domain/value_objects/user_credits.py
+    C 17:0 UserCredits - A
+    M 18:4 UserCredits.__init__ - A
+modules/user/domain/value_objects/user_password.py
+    C 18:0 UserPassword - A
+    M 19:4 UserPassword.__init__ - A
+modules/user/domain/value_objects/user_uid.py
+    C 18:0 UserUid - A
+    M 19:4 UserUid.__init__ - A
+modules/user/domain/value_objects/user_name.py
+    C 18:0 UserName - A
+    M 19:4 UserName.__init__ - A
+client/user_controller.py
+    F 12:0 crear_usuario - A

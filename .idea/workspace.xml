@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7bed7e2-93a4-4205-a526-2ba06f127b14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/micro_hex_proy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/entry.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/user_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/usuarios_db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/complejidad_ciclomatica.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/application/charge_to_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/application/create_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/application/deposit_to_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/application/find_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/application/list_users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/test_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/user_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/value_objects/user_credits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/value_objects/user_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/value_objects/user_password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/domain/value_objects/user_uid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/persistence/json_user_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user/persistence/test_json_user_repository.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/playground/complexity/radon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/domain/value_objects/int_value_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/domain/value_objects/string_value_object.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shared/persistence/json_repository.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="ZvDzmCKI" />
+  </component>
+  <component name="ProjectId" id="1ga1l8uk8gSJRzvAYqrrJNzkpes" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="entry" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="micro_hex_proy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/client/entry.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.entry" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7bed7e2-93a4-4205-a526-2ba06f127b14" name="Default Changelist" comment="" />
+      <created>1598338037455</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598338037455</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
